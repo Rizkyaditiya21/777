@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Slot Game</title>
+
+<style>
+body{text-align:center;background:#111;color:white;}
+.reels{display:flex;justify-content:center;gap:10px;margin:20px;}
+.reel{width:90px;height:90px;border:2px solid gold;
+display:flex;align-items:center;justify-content:center;font-size:40px;}
+button{padding:15px 40px;font-size:20px;}
+</style>
+
+</head>
+
+<body>
+
+<h2>SLOT DEMO</h2>
+<div id="balance"></div>
+
+<div class="reels">
+<div class="reel"></div>
+<div class="reel"></div>
+<div class="reel"></div>
+<div class="reel"></div>
+<div class="reel"></div>
+</div>
+
+<button onclick="spin()">SPIN</button>
+<div id="result"></div>
+
+<script src="../../js/balance.js"></script>
+<script src="../../js/slotEngine.js"></script>
+
+</body>
+</html>
+
 
